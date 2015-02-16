@@ -1,0 +1,136 @@
+body{
+background-color: #DAF5D5;
+}
+
+
+#pagetop{
+width:100%;
+height: 20%;
+font-size: 4em;;
+text-align:center;
+font-family:Verdana;
+color:#28A110;
+}
+
+
+#pagemid{
+width:100%;
+height: 50%;
+}
+
+#scoresandrounds{
+width:100%;
+height: 12.5%;
+}
+
+#pagebottom{
+width:100%;
+height: 12.5%;
+}
+
+#die{
+display: inline-block;
+width:25%;
+height:100%;
+/*background-color:red;*/
+cursor: pointer;
+}
+
+#clock {
+display: inline-block;
+width:25%;
+height:100%;
+}
+
+#timer{
+font-size: 12em;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+#dieface {
+display: inline-block;
+border: solid 1px ;
+width:25%;
+height:100%;
+}
+
+.space{
+display: inline-block;
+width:11.5%;
+height:100%;
+}
+
+
+#userscore {
+display: inline-block;
+width:33%;
+height:100%;
+text-align:center;
+font-size: 1.5em;
+}
+
+#rounds{
+display: inline-block;
+width:33%;
+height:100%;
+text-align:center;
+font-size: 1.5em;
+}
+
+#machinescore{
+display: inline-block;
+width:33%;
+height:100%;
+text-align:center;
+font-size: 1.5em;
+}
+
+#startbutton{
+display: inline-block;
+width:10%;
+height:100%;
+border:solid 1px;
+text-align:center;
+font-size: 1.7em;
+border-radius: 25px;
+cursor: pointer;
+color:#165D9C;
+}
+
+.pad{
+display: inline-block;
+width:43.5%;
+height:100%;
+}
+
+#startbanner{
+width:100%;
+height:5%;
+}
+
+#otherlinks{
+display: inline-block;
+width:31%;
+height:99.5%;
+}
+
+#howtoplay{
+display: inline-block;
+width:36%;
+height:99.5%;
+text-align: center;
+font-size: 1.2em;
+font-family: Lucida Console;
+color:#8F4060;
+}
+
+#info{
+display: inline-block;
+width:31%;
+height:99.5%;
+text-align:center;
+font-size: 1.1em;
+}
