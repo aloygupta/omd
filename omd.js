@@ -11,7 +11,17 @@ var t=0;
 var face=0;
 var alreadyClicked=1;
 
+var images = new Array();
+function preload() {
+	for (i = 1; i <=6; i++) {
+	images[i] = new Image()
+images[i].src ="images/red"+i+".png";
+images[i+6].src="images/blue"+i+".png";
+images[13].src="images/bluedie.png";
+images[14].src="images/reddie.png";
 
+	}
+}
 
 function init()
 {
