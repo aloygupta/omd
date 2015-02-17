@@ -19,7 +19,6 @@ images[i].src ="images/red"+i+".png";
 images[i+6].src="images/blue"+i+".png";
 images[13].src="images/bluedie.png";
 images[14].src="images/reddie.png";
-
 	}
 }
 
