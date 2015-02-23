@@ -1,6 +1,6 @@
 # Oh My Die ! - A simple javascript coded game 
 
-Just like life, skill and luck are required to paly this game.Your skill depends on how close you roll the die when the timer approaches 50.Your luck is about getting a value from 1 to 6 from the roll.
+Just like life, skill and luck are required to play this game.Your skill depends on how close you roll the die when the timer approaches 50.Your luck is about getting a value from 1 to 6 from the roll.
 
 #  How to play
 
