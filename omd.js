@@ -73,8 +73,8 @@ function machineGameClock(){
 if(turn==1){
 document.getElementById('die').innerHTML='<img src=\"images/reddie.png\" height=100% width=100% />';
 face = Math.floor((Math.random() * 6) + 1);
-t= Math.floor((Math.random() * 20) + 40);
-gvar = setInterval(gameTimer, 50);
+t= Math.floor((Math.random() * 15) + 43);
+gvar = setInterval(gameTimer, 38);
 }
 
 }
@@ -139,7 +139,7 @@ if(turn==0){
 alreadyClicked=0;
 document.getElementById('die').innerHTML='<img src=\"images/bluedie.png\" height=100% width=100% />';
 document.getElementById('rounds').innerHTML="Round # "+(++roundnum);
-gvar = setInterval(gameTimer, 50);
+gvar = setInterval(gameTimer, 38);
 }
 else
 {
